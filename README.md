@@ -15,6 +15,7 @@ NOTE: this is an early stage edition of what is possible. It does some error che
    1) API_KEY: the API key we give you for testing
    2) API_SECRET: the API secret we provide you
    3) API_ENDPOINT: the API endpoint that we provide you
+   4) WORKER_THREADS: set the number of worker threads you want sending in parallel. Each worker can send about 5/sec.
 3) Run yarn to install deps
 4) Run yarn build
 5) Run yarn start
